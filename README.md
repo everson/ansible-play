@@ -29,7 +29,7 @@ Useful for checking role based syntax (including template generation)
 
 ```
 jmaki@jmaki-pro /build/playground/ansible-play
-$ ./hello-world.sh 
+$ ansible-playbook -i local playbook/hello-world/main.yml
  [WARNING]: provided hosts list is empty, only localhost is available
 
 

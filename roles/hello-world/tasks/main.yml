@@ -2,4 +2,4 @@
 # tasks file for hello-world
 
 - name: Test jinja2template
-  template: src=helloworld.txt.j2 dest=helloworld.txt
+  template: src=helloworld.txt.j2 dest=/tmp/helloworld.txt
